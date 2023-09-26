@@ -3,11 +3,13 @@ import 'dart:io';
 class College{
   String? name;
   int?id;
-  String?name = stdin.ReadLinesync();
+
 
 }
 void main()
 {
   College c1 = College();
-  print('student name=${c1.name=''}');
+  String?name = stdin.readLineSync();
+  print('student name=${c1.name='vinay'}');
+  print('student id=${c1.id=1234}');
 }
